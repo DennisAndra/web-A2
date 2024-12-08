@@ -1,0 +1,43 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Fondo oscuro */
+    color: #e0e0e0; /* Texto claro */
+    line-height: 1.6;
+}
+
+/* Navegación */
+nav {
+    background-color: #1f1f2e; /* Azul oscuro */
+    color: #72ffdc; /* Neón turquesa */
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: #72ffdc;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    color: #ff7be5; /* Rosa neón */
+}
+
+/* Contenedor principal */
+main {
+    margin: 20px;
+    padding: 20px;
+    background: #1e1e28; /* Morado oscuro */
+    border: 1px solid #72ffdc;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 255, 255, 0.1);
+}
+
+/* Títulos */
+h1, h2 {
+    color: #ff7be5; /* Rosa neón */
+}

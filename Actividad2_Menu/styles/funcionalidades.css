@@ -1,0 +1,58 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c; /* Fondo oscuro */
+    color: #ffdd8e; /* Naranja suave */
+    line-height: 1.6;
+}
+
+/* Navegación */
+nav {
+    background-color: #290a29; /* Púrpura intenso */
+    color: #d4ff00; /* Verde ácido */
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: #d4ff00;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    color: #ff008f; /* Rosa vibrante */
+}
+
+/* Contenedor principal */
+main {
+    margin: 20px;
+    padding: 20px;
+    background: #290a29; /* Púrpura intenso */
+    border: 1px solid #d4ff00;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(255, 255, 0, 0.2);
+}
+
+/* Títulos */
+h1, h2 {
+    color: #ff008f; /* Rosa vibrante */
+}
+
+/* Inputs y botones */
+input, button, select {
+    background-color: #3a193a; /* Púrpura oscuro */
+    color: #d4ff00; /* Verde ácido */
+    border: 1px solid #ff008f;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 5px 0 15px;
+}
+
+button:hover {
+    background-color: #ff008f; /* Rosa vibrante */
+    color: #fff;
+}
