@@ -1,0 +1,82 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d2a; /* Azul oscuro */
+    color: #e8e8e8; /* Gris claro */
+    line-height: 1.6;
+}
+
+/* Navegación */
+nav {
+    background-color: #101035; /* Azul muy oscuro */
+    color: #ff0055; /* Rosa neón */
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: #ff0055;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    color: #00ffff; /* Azul eléctrico */
+}
+
+/* Contenedor principal */
+main {
+    margin: 20px;
+    padding: 20px;
+    background: #12123d; /* Azul medio oscuro */
+    border: 1px solid #ff0055; /* Rosa neón */
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(255, 0, 85, 0.2);
+}
+
+/* Títulos */
+h1, h2 {
+    color: #00ffff; /* Azul eléctrico */
+}
+
+/* Formulario */
+label {
+    color: #ff0055; /* Rosa neón */
+    font-weight: bold;
+}
+
+input, select, button {
+    background-color: #232347; /* Azul oscuro */
+    color: #00ffff; /* Azul eléctrico */
+    border: 1px solid #ff0055;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 5px 0 15px;
+}
+
+button:hover {
+    background-color: #ff0055;
+    color: #fff;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: #e8e8e8;
+}
+
+table th {
+    background-color: #00ffff; /* Azul eléctrico */
+    color: #0d0d2a;
+}
+
+table td {
+    border: 1px solid #ff0055; /* Rosa neón */
+    padding: 10px;
+    text-align: left;
+}
